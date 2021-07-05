@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--NOMBRE DE LA PAGINA 35-65-->
+    <title> MENÚ - PROT INN - Alimentos nutritivos y saludables </title>
+    <!--DESCRIPCION DE LA PAGINA 70-320-->
+    <meta name="description"
+        content="PROT INN -  Alimentos nutritivos y saludables - Desayunos especiales - sugar free - comida vegana en ecuador">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--  GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway&display=swap"
+        rel="stylesheet">
+    <!--  FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--OPEN GRAPH-->
+    <meta property="og:title" content="MENÚ - Alimentos nutritivos y saludables">
+    <meta property=“og: site_name” content=“PROT-INN” />
+    <meta property="og:image" content="https://fransur.com/wp-content/uploads/2020/08/logo-prot-inn.png">
+    <meta property="og:image:width" content="20%">
+    <meta property="og:description" content="¡Comer sano y delicioso es posible! Hemos encontrado la manera de juntar a los ‘foodies’ con los
+    ‘healthiest’ usando ingredientes de los cuales tu y tu cuerpo se van a beneficiar.">
+    <meta property="og:locale" content="en_ES">
+    <meta property="og:url" content="https://prot-inn.com/menu">
+</head>
+
+<body>
+    <!--  NAV BAR -->
+    <nav class="menu-nav">
+        <a href="index.html" class="fake-logo">
+            <h1>PROT INN</h1>
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times fas2" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html" class="black">Nosotros</a></li>
+                <li><a href="menu.html" class="black">Menu</a></li>
+                <li><a href="blog.html" class="black">Blog</a></li>
+                <li><a href="catalogo.html" class="black">Catalogo</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars fas2" onclick="showMenu()"></i>
+    </nav>
+
+    <!--  MENU SECTION -->
+    <h2 class="menu-h1">MENU</h2>
+    <hr>
+    <div class="wrapper">
+        <div class="box a">
+            <h2>ALL DAY EVERYDAY</h2>
+            <h3>WAFFLES . . . . . . . . . . . . . . . . . . . . . . $5.99</h3>
+            <p>2 Waffles de Whey Protein Isolate endulzados con stevia.
+                Toppings: Blueberries + Mantequilla de Maní de chocolate sin azúcar + Sugar-Free Maple Syrup.</p>
+            <h3>PANCAKES . . . . . . . . . . . . . . . . . . . . . $6.50</h3>
+            <p>3 Pancakes de Whey Protein Isolate endulzados con stevia.
+                Toppings: Almendras tostadas + frutilla + banana + mantequilla de maní + syrup sugar free.</p>
+            <h3>KETO PANCAKES . . . . . . . . . . . . . . . . $6.99</h3>
+            <p>3 Pancakes elaborados con harina de almendra.
+                Topping: Blueberries + Mantequilla de maní de chocolate sin azúcar + maple sugar free.</p>
+            <h3>CHICKEN AND BEANS . . . . . . . . . . . . $6.99</h3>
+            <p>Pollo + tortilla integral + tomate + frijol + salsa chipotle + queso light + maíz dulce + guacamole.
+            </p>
+            <h3>TIGRILLO LIGHT . . . . . . . . . . . . . . . . . $4.99</h3>
+            <p>Verde + huevo + tocino deshidratado + salprieta + leche de almendras y queso ricotta.</p>
+            <h3>KETO LAVA CAKE . . . . . . . . . . . . . . . . $4.50</h3>
+            <p>Delicioso cake de chocolate sin azúcar, harina de almendras + Whey Protein Isolate.</p>
+        </div>
+        <div class="box b">
+            <h3 class="fake-h2">SANDWICH</h3>
+            <h3>EGGS AND BACON . . . . . . . . . . . . . . . . . . . . . . $4.99</h3>
+            <p>Huevo + tocino deshidratado + queso light + kale.</p>
+            <h3>PULLED PORK . . . . . . . . . . . . . . . . . . . . . . . . . . $5.99</h3>
+            <p>Pan masa madre integral, cerdo mechado en salsa BBQ Sugar-Free + coleslaw.</p>
+            <h3>CHICKEN ALMOND . . . . . . . . . . . . . . . . . . . . . . $6.50</h3>
+            <p>Pan masa madre integral, pollo empanizado en harina
+                de almendras, tomate, salsa blanca light y queso holandés light.</p>
+            <h3>WILD SALMON . . . . . . . . . . . . . . . . . . . . . . . . . . $7.90</h3>
+            <p>Salmón + queso ricotta + guacamole + alcaparras + limón.
+            </p>
+        </div>
+        <div class="box c">
+            <h3 class="fake-h2">DRINKS</h3>
+            <h3>SWITCHEL ORGANIC JUICE . . . . . . . $3.00</h3>
+            <p>Agua alcalina, limón, jengibre, vinagre de manzana y stevia.</p>
+            <h3> MORINGA . . . . . . . . . . . . . . . . . . . . . . $3.00</h3>
+            <p>Té de Moringa, limón, jengibre, menta, hierbabuena, agua purificada.</p>
+            <h3> WAKE UP SUPERFOOD TEA . . . . . . . $3.50</h3>
+            <p>Chaga Mushroom, guayusa, té verde y hoja de stevia.</p>
+            <h3> JAMAICA & MARACUYA . . . . . . . . . . . $2.50 </h3>
+            <p>Agua alcalina, té de jamaica, maracuyá, té de moringa, stevia y sal rosada.
+                Macros: Cal. 12 | Carbs 3g | Azúcar 2g</p>
+            <h3> NARANJILLA Y MANZANILLA . . . . . . $2.50 </h3>
+            <p>Agua alcalina, naranjilla, manzanilla, stevia y sal rosada.
+                Macros: Cal. 10 | Carbs 2.4g | Azúcar: 1.5g</p>
+        </div>
+        <div class="box d">
+            <h3 class="fake-h2">HELADOS</h3>
+            <div class="left">
+                <h3>CHOCOLATE MINT . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Helado a base de agua, whey protein isolate, chocolate sin azúcar, stevia y <br> saborizante natural
+                    de
+                    menta.
+                    Macros: Cal. 64 | Grasa 2g | Carbs. 4g | Proteína. 8g</p>
+                <h3> KETO VAINILLA ALMOND . . . . . . . . . . . . . . . . $3.50 </h3>
+                <p>Macros: Cal. 66 | Grasa 2g | Carbs. 4g | Proteína. 8g</p>
+                <h3> KETO VAINILLA FRUTILLA . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Macros: Cal. 66 | Grasa 2g | Carbs. 4g | Proteína. 8g
+                </p>
+                <h3> CHICLE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Helado a base de agua, whey protein isolate, stevia y saborizante natural de chicle.<br>
+                    Macros: Cal. 48 | Grasa 0g | Carbs. 4g | Proteína. 8g</p>
+                <h3> PISTACHO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Helado a base de agua, whey protein isolate, stevia y pasta de pistacho.<br>
+                    Macros: Cal. 66 | Grasa 2g | Carbs. 4g | Proteína. 8g</p>
+            </div>
+            <div class="center">
+                <h3> CHOCOLATE . . . . . . . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Helado a base de agua, whey protein isolate, cacao y stevia.<br>
+                    Macros: Cal. 75 | Grasa 3g | Carbs. 4g | Proteína. 8g </p>
+                <h3> MOCCA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Macros: Cal. 75 | Grasa 3g | Carbs. 4g | Proteína. 8g</p>
+            </div>
+        </div>
+        <div class="box e">
+            <h3 class="fake-h2">HEALTHY SNACKS</h3>
+            <div class="center">
+                <h3>PAN DE BANANO . . . . . . . . . . . . . . . . . . . . . $3.00</h3>
+                <p>Macros: Cal. 253 | Grasa 5g | Carbs. 32g | Proteína. 20g</p>
+                <h3> APPLE AND NUTS CAKE . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Macros: Cal. 233 | Grasa 9g | Carbs. 20g | Proteína. 18g</p>
+                <h3>LEMON PIE . . . . . . . . . . . . . . . . . . . . . . . . . . . $4.00</h3>
+                <p>Macros: Cal. 247 | Grasa 15g | Carbs. 10g | Proteína. 18g</p>
+                <h3> GALLETAS KETO . . . . . . . . . . . . . . . . . . . . . . . $2.50</h3>
+                <p>Macros: Cal. 125 | Grasa 9g | Carbs. 3g | Proteína. 8g
+                </p>
+                <h3>PEANUT BUTTER VANILLA COOKIES . . . . . . $2.50</h3>
+                <p>Macros: Cal. 335 | Grasa 23g | Carbs. 10g | Proteína. 22g</p>
+
+            </div>
+            <div class="center">
+                <h3>CHOCOLATE CHEESECAKE . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Macros: Cal. 335 | Grasa 23g | Carbs. 10g | Proteína. 22g</p>
+                <h3>KETO CAKE DE CHOCOLATE . . . . . . . . . . . . . . . . . . . $5.00</h3>
+                <p>Macros: Cal. 264 | Grasa 20g | Carbs. 3g | Proteína. 18g
+                </p>
+                <h3>KETO LAVA CAKE . . . . . . . . . . . . . . . . . . . . . . . . . . . . $4.50</h3>
+                <p>Macros: Cal. 280 | Grasa 20g | Carbs. 3g | Proteína. 18g</p>
+                <h3>PEANUT BUTTER CUPS . . . . . . . . . . . . . . . . . . . . . . . . $1.50</h3>
+                <p>Macros: Cal. 65 | Grasa 5g | Carbs. 0g | Proteína. 5g</p>
+                <h3>GALLETAS AVENA . . . . . . . . . . . . . . . . . . . . . . . . . . . . $2.00</h3>
+                <p>Macros: Cal. 125 | Grasa 5g | Carbs. 12g | Proteína. 8g</p>
+            </div>
+            <div class="left">
+                <h3>KETO COOKIE VAINILLA MINI . . . . . . . . . . . . . . . . . . $1.00</h3>
+                <p>Macros: Cal. 47 | Grasa 3g | Carbs. 1g | Proteína. 4g</p>
+                <h3>SALTED ALMOND BUTTER CHEESECAKE . . . . . . . . $4.00</h3>
+                <p>Macros: Cal. 307 | Grasa 23g | Carbs. 5g | Proteína. 20g</p>
+                <h3> PROT INN OATS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $5.00</h3>
+                <p>Macros: Cal. 265 | Grasa 5g | Carbs. 35g | Proteína. 20g</p>
+                <h3>CHEESECAKE FRUTILLA . . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Macros: Cal. 270 | Grasa 18g | Carbs. 7g | Proteína. 20g
+                </p>
+                <h3> KETO CAKE NARANJA . . . . . . . . . . . . . . . . . . . . . . . . . $5.50</h3>
+                <p>Macros: Cal. 272 | Grasa 20g | Carbs. 3g | Proteína. 20g</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section class="menu-responsive">
+        <div class="row">
+            <div class="menu-col">
+                <h3 class="fake-h2">ALL DAY EVERYDAY</h3>
+                <h3>WAFFLES . . . . . . . . . . . . . . . . . . . . . . $5.99</h3>
+                <p>2 Waffles de Whey Protein Isolate endulzados con stevia.
+                    Toppings: Blueberries + Mantequilla de Maní de chocolate sin azúcar + Sugar-Free Maple Syrup.</p>
+                <h3>PANCAKES . . . . . . . . . . . . . . . . . . . . . $6.50</h3>
+                <p>3 Pancakes de Whey Protein Isolate endulzados con stevia.
+                    Toppings: Almendras tostadas + frutilla + banana + mantequilla de maní + syrup sugar free.</p>
+                <h3>KETO PANCAKES . . . . . . . . . . . . . . . $6.99</h3>
+                <p>3 Pancakes elaborados con harina de almendra.
+                    Topping: Blueberries + Mantequilla de maní de chocolate sin azúcar + maple sugar free.</p>
+                <h3>CHICKEN AND BEANS . . . . . . . . . . $6.99</h3>
+                <p>Pollo + tortilla integral + tomate + frijol + salsa chipotle + queso light + maíz dulce + guacamole.
+                </p>
+                <h3>TIGRILLO LIGHT . . . . . . . . . . . . . . . $4.99</h3>
+                <p>Verde + huevo + tocino deshidratado + salprieta + leche de almendras y queso ricotta.</p>
+                <h3>KETO LAVA CAKE . . . . . . . . . . . . . $4.50</h3>
+                <p>Delicioso cake de chocolate sin azúcar, harina de almendras + Whey Protein Isolate.</p>
+            </div>
+            <div class="menu-col">
+                <h3 class="fake-h2">SANDWICH</h3>
+                <h3>EGGS AND BACON . . . . . . . . . . . . . $4.99</h3>
+                <p>Huevo + tocino deshidratado + queso light + kale.</p>
+                <h3>PULLED PORK . . . . . . . . . . . . . . . . $5.99</h3>
+                <p>Pan masa madre integral, cerdo mechado en salsa BBQ Sugar-Free + coleslaw.</p>
+                <h3>CHICKEN ALMOND . . . . . . . . . . . . $6.50</h3>
+                <p>Pan masa madre integral, pollo empanizado en harina
+                    de almendras, tomate, salsa blanca light y queso holandés light.</p>
+                <h3>WILD SALMON . . . . . . . . . . . . . . . . $7.90</h3>
+                <p>Salmón + queso ricotta + guacamole + alcaparras + limón.
+                </p>
+            </div>
+            <div class="menu-col">
+                <h2>DRINKS</h2>
+                <h3>SWITCHEL ORGANIC JUICE . . . $3.00</h3>
+                <p>Agua alcalina, limón, jengibre, vinagre de manzana y stevia.</p>
+                <h3> MORINGA . . . . . . . . . . . . . . . . . . . . $3.00</h3>
+                <p>Té de Moringa, limón, jengibre, menta, hierbabuena, agua purificada.</p>
+                <h3> WAKE UP SUPERFOOD TEA . . . $3.50</h3>
+                <p>Chaga Mushroom, guayusa, té verde y hoja de stevia.</p>
+                <h3> JAMAICA & MARACUYA . . . . . . . $2.50 </h3>
+                <p>Agua alcalina, té de jamaica, maracuyá, té de moringa, stevia y sal rosada.
+                    Macros: Cal. 12 | Carbs 3g | Azúcar 2g</p>
+                <h3> NARANJILLA Y MANZANILLA . . $2.50 </h3>
+                <p>Agua alcalina, naranjilla, manzanilla, stevia y sal rosada.
+                    Macros: Cal. 10 | Carbs 2.4g | Azúcar: 1.5g</p>
+            </div>
+            <div class="menu-col">
+                <h3 class="fake-h2">HELADOS</h3>
+                <h3>CHOCOLATE MINT . . . . . . . . . . . . . $3.50</h3>
+                <p>Helado a base de agua, whey protein isolate, chocolate sin azúcar, stevia y <br> saborizante natural
+                    de
+                    menta.
+                    Macros: Cal. 64 | Grasa 2g | Carbs. 4g | Proteína. 8g</p>
+                <h3> KETO VAINILLA ALMOND . . . . . . $3.50 </h3>
+                <p>Macros: Cal. 66 | Grasa 2g | Carbs. 4g | Proteína. 8g</p>
+                <h3> KETO VAINILLA FRUTILLA . . . . . . $3.50</h3>
+                <p>Macros: Cal. 66 | Grasa 2g | Carbs. 4g | Proteína. 8g
+                </p>
+                <h3> CHICLE . . . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Helado a base de agua, whey protein isolate, stevia y saborizante natural de chicle.<br>
+                    Macros: Cal. 48 | Grasa 0g | Carbs. 4g | Proteína. 8g</p>
+                <h3> PISTACHO . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Helado a base de agua, whey protein isolate, stevia y pasta de pistacho.<br>
+                    Macros: Cal. 66 | Grasa 2g | Carbs. 4g | Proteína. 8g</p>
+                <h3> CHOCOLATE . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Helado a base de agua, whey protein isolate, cacao y stevia.<br>
+                    Macros: Cal. 75 | Grasa 3g | Carbs. 4g | Proteína. 8g </p>
+                <h3> MOCCA . . . . . . . . . . . . . . . . . . . . . . . . $3.50</h3>
+                <p>Macros: Cal. 75 | Grasa 3g | Carbs. 4g | Proteína. 8g</p>
+            </div>
+            <div class="menu-col">
+                <h3 class="fake-h2">HEALTHY SNACKS</h3>
+                <h3>PAN DE BANANO . . . . . . . . . . . . . . $3.00</h3>
+                <p>Macros: Cal. 253 | Grasa 5g | Carbs. 32g | Proteína. 20g</p>
+                <h3> APPLE AND NUTS CAKE . . . . . . . . . $3.50</h3>
+                <p>Macros: Cal. 233 | Grasa 9g | Carbs. 20g | Proteína. 18g</p>
+                <h3>LEMON PIE . . . . . . . . . . . . . . . . . . . . . $4.00</h3>
+                <p>Macros: Cal. 247 | Grasa 15g | Carbs. 10g | Proteína. 18g</p>
+                <h3> GALLETAS KETO . . . . . . . . . . . . . . . . $2.50</h3>
+                <p>Macros: Cal. 125 | Grasa 9g | Carbs. 3g | Proteína. 8g
+                </p>
+                <h3>CHOCOLATE CHEESECAKE . . . . . . $3.50</h3>
+                <p>Macros: Cal. 335 | Grasa 23g | Carbs. 10g | Proteína. 22g</p>
+                <h3>KETO CAKE DE CHOCOLATE . . . . $5.00</h3>
+                <p>Macros: Cal. 264 | Grasa 20g | Carbs. 3g | Proteína. 18g
+                </p>
+                <h3>KETO LAVA CAKE . . . . . . . . . . . . . . $4.50</h3>
+                <p>Macros: Cal. 280 | Grasa 20g | Carbs. 3g | Proteína. 18g</p>
+                <h3>PEANUT BUTTER CUPS . . . . . . . . . $1.50</h3>
+                <p>Macros: Cal. 65 | Grasa 5g | Carbs. 0g | Proteína. 5g</p>
+                <h3>GALLETAS AVENA . . . . . . . . . . . . . . $2.00</h3>
+                <p>Macros: Cal. 125 | Grasa 5g | Carbs. 12g | Proteína. 8g</p>
+                <h3>KETO COOKIE VAINILLA MINI . . . . $1.00</h3>
+                <p>Macros: Cal. 47 | Grasa 3g | Carbs. 1g | Proteína. 4g</p>
+                <h3> PROT INN OATS . . . . . . . . . . . . . . . . $5.00</h3>
+                <p>Macros: Cal. 265 | Grasa 5g | Carbs. 35g | Proteína. 20g</p>
+                <h3>CHEESECAKE FRUTILLA . . . . . . . . . $3.50</h3>
+                <p>Macros: Cal. 270 | Grasa 18g | Carbs. 7g | Proteína. 20g
+                </p>
+                <h3> KETO CAKE NARANJA . . . . . . . . . . $5.50</h3>
+                <p>Macros: Cal. 272 | Grasa 20g | Carbs. 3g | Proteína. 20g</p>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <section class="footer">
+        <h4> Acerca de nosotros </h4>
+        <p>¡Comer sano y delicioso es posible! Hemos encontrado la manera de juntar a <br> los ‘foodies’ con los
+            ‘healthiest’
+            usando ingredientes de los cuales tu y tu cuerpo se van a beneficiar.</p>
+        <div class="icons">
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-diners-club"></i>
+            <i class="fab fa-cc-amex"></i>
+        </div>
+        <p>Hecho con <i class="far fa-heart"></i> por Aithana Gabrielle</p>
+    </section>
+    <!-- JAVASCRIPT TOOGLE MENU -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>

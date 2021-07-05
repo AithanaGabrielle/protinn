@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--NOMBRE DE LA PAGINA 35-65-->
+    <title> BLOG - PROT INN - Alimentos nutritivos y saludables </title>
+    <!--DESCRIPCION DE LA PAGINA 70-320-->
+    <meta name="description"
+        content="PROT INN -  Alimentos nutritivos y saludables - Desayunos especiales - sugar free - comida vegana en ecuador">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--  GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway&display=swap"
+        rel="stylesheet">
+    <!--  FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--OPEN GRAPH-->
+    <meta property="og:title" content="BLOG - Alimentos nutritivos y saludables">
+    <meta property=“og: site_name” content=“PROT-INN” />
+    <meta property="og:image" content="https://fransur.com/wp-content/uploads/2020/08/logo-prot-inn.png">
+    <meta property="og:image:width" content="20%">
+    <meta property="og:description" content="¡Comer sano y delicioso es posible! Hemos encontrado la manera de juntar a los ‘foodies’ con los
+        ‘healthiest’ usando ingredientes de los cuales tu y tu cuerpo se van a beneficiar.">
+    <meta property="og:locale" content="en_ES">
+    <meta property="og:url" content="https://prot-inn.com/blog">
+</head>
+
+<body>
+    <!--  MENU NAV -->
+    <nav>
+        <a href="index.html" class="fake-logo">
+            <h1>PROT INN</h1>
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times fas2" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html" class="black">Nosotros</a></li>
+                <li><a href="menu.html" class="black">Menu</a></li>
+                <li><a href="blog.html" class="black">Blog</a></li>
+                <li><a href="catalogo.html" class="black">Catalogo</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars fas2" onclick="showMenu()"></i>
+    </nav>
+    <!-- SECCION BLOG -->
+    <section class="blog-body">
+        <section class="blog">
+            <div class="row">
+                <div class="blog-col">
+                    <img src="IMAGENES/sugar-worsen-covid-19-800x800.jpg" alt="">
+                    <div class="card-content">
+                        <h2 class="card-header">El azucar, nuestro mayor enemigo ¿como eliminarlo de la dieta?</h2>
+                        <p class="card-text"> Hoy en día se conoce que el verdadero problema es el consumo de azúcar,
+                            que está directamente relacionado con algunas enfermedades. </p>
+                        <button class="card-btn">
+                            Leer mas <span>&rarr;</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="blog-col">
+                    <img src="IMAGENES/IMG_4861-800x800.jpg" alt="">
+                    <div class="card-content">
+                        <h3 class="card-header">¡Comer rico es saludable! </h3>
+                        <p class="card-text"> Nos hemos tomado el trabajo por ustedes creando alimentos y snacks
+                            saludables para que puedas disfrutar de algo delicioso mientras continúas tu meta por estar
+                            cada dia mas
+                            saludable, sentirte mejor y verte mejor.</p>
+                        <button class="card-btn">
+                            Leer mas <span>&rarr;</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="blog-col">
+                    <img src="IMAGENES/protinnquito-frame-800x675.jpg" alt="">
+                    <div class="card-content">
+                        <h3 class="card-header">¡Prot Inn llega a Quito!</h3>
+                        <p class="card-text"> A partir de Julio, abrirá sus puertas también en Quito siendo el primer
+                            Protein Coffee Shop con todos sus alimentos libres de azúcar, libres de harinas refinadas y
+                            de grasas no
+                            saludables.
+                        </p>
+                        <button class="card-btn">
+                            Leer mas <span>&rarr;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    </section>
+    <!-- FOOTER -->
+    <section class="footer">
+        <h4> Acerca de nosotros </h4>
+        <p>¡Comer sano y delicioso es posible! Hemos encontrado la manera de juntar a <br> los ‘foodies’ con los
+            ‘healthiest’
+            usando ingredientes de los cuales tu y tu cuerpo se van a beneficiar.</p>
+        <div class="icons">
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-diners-club"></i>
+            <i class="fab fa-cc-amex"></i>
+        </div>
+        <p>Hecho con <i class="far fa-heart"></i> por Aithana Gabrielle</p>
+    </section>
+    <!-- JAVASCRIPT TOOGLE MENU -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+
+</html>
