@@ -1,0 +1,239 @@
+/* INICIO DEL BLOG */
+
+/* NAV BAR */
+.fake-logo {
+    color: $black;
+    letter-spacing: ($ls-1)*10;
+    }
+    
+    nav {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav .black {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: $font-medium;
+        letter-spacing: $ls-3;
+        font-size: $small-font-size;
+        margin: 0 $mb-6;
+        color: $black;
+        text-transform: uppercase;
+        letter-spacing: $ls-5;
+    }
+    
+    .nav-links {
+        flex: 1;
+        text-align: right;
+    }
+    
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: ($p-3)-0.25 $p-3;
+        position: relative;
+    }
+    
+    .nav-links ul li::after{
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: $lightblue4;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    .nav-links ul li:hover::after{
+        width: $w-4;
+    }
+    
+    
+    nav .fas{
+        display: none;
+    }
+    
+    /* RESPONSIVE */
+    @media(max-width: 700px){
+        .text-box h1{
+            font-size: ($normal-font-size)+0.1;
+        }
+        .nav-links ul li{
+            display: block;
+        }
+        .nav-links{
+            position: absolute;
+            background-color: $lightblue3;
+            height: 100vh;
+            width: $w-2;
+            top: 0;
+            right: -200px;
+            text-align: left;
+            z-index: 2;
+            transition: 1s;
+        }
+        nav .fas {
+            display: block;
+            color: $black;
+            margin: $mb-6;
+            font-size: ($small-font-size)+0.2;
+            cursor: pointer;
+        }
+        .nav-links ul {
+            padding: ($p-3)+0.05;
+    
+        }
+    }
+    
+    .blog-body {
+        background: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    .blog-body h2 {
+        text-align: center;
+    }
+    
+    .blog {
+        width: $w-3;
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+    .blog-col {
+        flex-basis: 31%;
+        border-radius: 1rem;
+        margin-bottom: 5%;
+        text-align: left;
+        background-color: $white;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    .blog-col:hover {
+        transform: translateY(-2%);
+    }
+    .blog-col img {
+        display: block;
+        width: $w-4;
+        height: 20rem;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    /* CONTENIDO */
+    .card-content {
+        padding: ($p-2)+0.5;
+    }
+    
+    .card-header {
+        font-size: $normal-font-size;
+        line-height: 1.5;
+        font-weight: $font-medium;
+        color: #0d0d0d;
+        margin-bottom: ($mb-3)+0.25;
+    }
+    
+    .card-text {
+        font-size: $small-font-size;
+        line-height: ($mb-3)+0.25;
+        color: #3d3d3d;
+        margin-bottom: $mb-1;
+        text-align: justify;
+    }
+    
+    /* BOTON */
+    .card-btn {
+        display: block;
+        width: $w-4;
+        padding: $p-2;
+        font-size: $small-font-size;
+        text-align: center;
+        color: #3363ff;
+        background-color: #d8e0fd;
+        border: none;
+        background-repeat: 0.4rem;
+        transition: 0.2s;
+        cursor: pointer;
+        letter-spacing: 0.1rem;
+        border-radius: 0.5rem;
+    }
+    
+    /* ICONO DEL BOTON */
+    .card-btn span {
+        margin-left: $mb-5;
+        transition: 0.2s;
+    }
+    
+    .card-btn:hover
+    .card-btn:active {
+        background-color: #c2cffc;
+    }
+    
+    .card-btn:hover span
+    .card-btn:active span {
+        margin-left: ($mb-3)+0.25;
+    }
+    
+    button {
+        font-size: $small-font-size;
+        font-weight: $font-medium;
+    }
+    
+    nav .fas2 {
+        display: none;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 700px) {
+        .fake-logo{
+            letter-spacing: $ls-4;
+            
+        }
+        
+        .blog-col:hover {
+            transform: none;
+        }
+        .card-content {
+            padding: ($p-3)+0.25;
+        }
+        
+        .card-header {
+            font-size: ($small-font-size)+0.1;
+            margin-bottom: $mb-5;
+        }
+        
+        .card-text {
+            font-size: ($small-font-size)-0.2;
+            line-height: 1.5;
+            margin-bottom: $mb-2;
+        }
+        
+        .card-btn {
+            text-transform: uppercase;
+            font-size: ($small-font-size)-0.1;
+            transition: none;
+        }
+    
+        .card-btn span{
+            display: none;
+        }
+        nav .fas2 {
+            display: block;
+            color: $black;
+            margin: $mb-6;
+            cursor: pointer;
+        }
+        nav .black {
+            color: $white;
+    }
+    }
+/* FIN DEL BLOG */
